@@ -1,3 +1,4 @@
+/* General rules */
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +8,50 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+   
+    /* Debug */
+    background-color: aqua;
+    height: 300px;
+}
+
+.alt-container {
+    width: 70%;
+    margin: 0 auto;
+
+    /* Debug */
+    background-color: blueviolet;
+    height: 200px;
+}
+
+.container, .alt-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Header fixed */
+#fixed-nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    /* Debug */
+    background-color: red;
+}
+
+/* Jumbotron rules */
+#jumbotron {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(180, 208, 231);
+}
+
