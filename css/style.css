@@ -129,6 +129,10 @@ ul li a{
     color: white;
 }
 
+.jumbo-text .button {
+    margin: 30px 0;
+}
+
 .jumbo-img img{
     width: 60%;
     height: auto;
@@ -168,6 +172,10 @@ ul li a{
     border-bottom: none;
 }
 
+.body-column {
+    border: 1px solid lightgray;
+}
+
 .body-column h3{
     margin: 10px 0;
 }
@@ -182,6 +190,14 @@ ul li a{
 
 .product-description .button{
     margin: 20px 0;
+}
+
+.product-description p{
+    margin: 20px 0;
+}
+
+.product-description ul li{
+    list-style: none;
 }
 
 
