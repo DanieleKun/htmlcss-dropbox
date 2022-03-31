@@ -25,7 +25,7 @@ body {
 
     /* Debug */
     background-color: blueviolet;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .container::after {
@@ -64,7 +64,7 @@ body {
 }
 
 /* First section rules */
-#row-up {
+.row-up {
     margin: 20px 0;
 
     /* Debug */
@@ -73,18 +73,16 @@ body {
 }
 
 .column {
-    /* float: left; */
-    display: inline-block;
-    width: calc(100% / 3 - 3px);
+    float: left;
+    width: calc(100% / 3);
     height: 300px;
-    text-align: center;
 
     /* Debug  */
     background-color: brown;
     border: 1px solid black;
 }
 
-#row-down {
+.row-down {
 
     /* Debug */
     height: 100px;
@@ -111,10 +109,45 @@ body {
     width: 40%;
 }
 
+
+/* Third section */
 .title-section {
 
     /* debug */
     background-color: black;
-    height: 200px;
+    height: 100px;
     width: 100%;
+}
+
+.multi-block {
+    float: left;
+    width: calc(100% / 3);
+    height: 300px;
+
+    /* debug */
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+
+/* fourth section */
+.aside-col {
+    width: 30%;
+}
+
+.center-col {
+    width: 40%;
+}
+
+.faq-sez {
+
+    /* Debug */
+    background-color: dodgerblue;
+    height: 300px;
+}
+
+footer {
+    background-color: black;
+
+    /* debug */
+    height: 400px;
 }
