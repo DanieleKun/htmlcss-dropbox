@@ -28,11 +28,19 @@ body {
     height: 200px;
 }
 
-.container, .alt-container::after {
+.container::after {
     content: "";
     display: table;
     clear: both;
 }
+
+.alt-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 
 /* Header fixed */
@@ -55,3 +63,58 @@ body {
     background-color: rgb(180, 208, 231);
 }
 
+/* First section rules */
+#row-up {
+    margin: 20px 0;
+
+    /* Debug */
+    background-color: darkblue;
+    height: 100px;
+}
+
+.column {
+    /* float: left; */
+    display: inline-block;
+    width: calc(100% / 3 - 3px);
+    height: 300px;
+    text-align: center;
+
+    /* Debug  */
+    background-color: brown;
+    border: 1px solid black;
+}
+
+#row-down {
+
+    /* Debug */
+    height: 100px;
+    background-color: crimson;
+}
+
+
+/* Second section */
+.col-img {
+    float: left;
+
+    /* Debug */
+    background-color: darkslategrey;
+    height: 300px;
+    width: 60%;
+}
+
+.col-text {
+    float: right;
+
+    /* debug */
+    background-color: green;
+    height: 300px;
+    width: 40%;
+}
+
+.title-section {
+
+    /* debug */
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
