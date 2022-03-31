@@ -9,6 +9,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+span {
+    display: inline-block;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -88,8 +92,13 @@ ul li a{
     color: white;
     background-color: rgb(0, 97, 255);
     padding: 5px 10px;
+    text-align: center;
 }
 
+.button a{
+    text-decoration: none;
+    color: white;
+}
 
 
 
@@ -130,22 +139,51 @@ ul li a{
 
 /* First section rules */
 .row-up {
-    margin: 100px 0;
+    margin: 150px 0;
 
     /* Debug */
-    background-color: darkblue;
-    height: 100px;
+    /* background-color: darkblue;
+    height: 100px; */
 }
 
+.row-up h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Column rules */
 .column {
     float: left;
     width: calc(100% / 3);
-    height: 300px;
 
     /* Debug  */
     background-color: brown;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* height: 300px; */
 }
+
+.head-column {
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-bottom: none;
+}
+
+.body-column h3{
+    margin: 10px 0;
+}
+
+.price {
+    margin: 20px 0;
+}
+
+.body-column .fas{
+    margin: 10px 0;
+}
+
+.product-description .button{
+    margin: 20px 0;
+}
+
 
 .row-down {
 
