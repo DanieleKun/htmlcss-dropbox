@@ -413,11 +413,28 @@ ul li a{
 
 
 .faq-sez {
+    margin-bottom: 150px;
 
     /* Debug */
-    background-color: dodgerblue;
-    height: 300px;
+    /* background-color: dodgerblue; */
+    /* height: 300px; */
 }
+
+.faq-sez h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.faq-sez p{
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+.fa-angle-down {
+    margin-left: 380px;
+}
+
 
 footer {
     background-color: black;
