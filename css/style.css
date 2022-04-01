@@ -172,7 +172,7 @@ ul li a{
     width: calc(100% / 3);
 
     /* Debug  */
-    background-color: brown;
+    /* background-color: brown; */
     /* border: 1px solid black; */
     /* height: 300px; */
 }
@@ -307,10 +307,10 @@ ul li a{
 
 .aside-col {
     width: 30%;
+    height: 300px;
 
     /* Debug */
-    height: 300px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 /* Rules image */
@@ -330,7 +330,6 @@ ul li a{
     /* margin-top: 50px;
     margin-left: 30px; */
 }
-
 
 /* Background partner image */
 .bg-1{
@@ -365,14 +364,53 @@ ul li a{
     background-color: rgb(255, 216, 48);
 }
 
-
+/* Center carousel */
 .center-col {
     width: 40%;
+    height: 300px;
+    background-color: rgb(245, 245, 245);
 
     /* Debug */
-    height: 300px;
-    background-color: deeppink;
+    /* background-color: deeppink; */
 }
+
+.center-carousel-logo img{
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.center-col p{
+    margin: 30px 30px;
+}
+
+#carousel-down-bg {
+    width: 100%;
+    background-color: rgb(180, 208, 231);
+
+    /* Debug */
+    /* height: 300px; */
+}
+
+.left-carousel {
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    color: rgb(97, 8, 43);
+    padding: 100px 0;
+}
+
+.button-carousel-container{
+    float: right;
+    width: 50%;
+    padding-top: 120px;
+    padding-left: 150px;
+}
+
+.button-carousel-container .white-btn{
+    border: none;
+}
+
 
 .faq-sez {
 
