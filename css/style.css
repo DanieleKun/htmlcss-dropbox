@@ -17,8 +17,6 @@ span {
     width: 80%;
     margin: 0 auto;
     
-    
-   
     /* Debug */
     /* background-color: aqua;
     height: 300px; */
@@ -55,6 +53,11 @@ span {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Icon rules */
+.fa-check {
+    color: rgb(0, 97, 255);
 }
 
 
