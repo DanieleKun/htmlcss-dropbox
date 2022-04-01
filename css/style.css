@@ -261,22 +261,40 @@ ul li a{
 
 /* Third section */
 .title-section {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 
     /* debug */
-    background-color: black;
-    height: 100px;
-    width: 100%;
+    /* background-color: black; */
+    /* height: 100px;
+    width: 100%; */
 }
 
 .multi-block {
     float: left;
-    width: calc(100% / 3);
-    height: 300px;
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+    margin-bottom: 40px;
 
     /* debug */
-    background-color: goldenrod;
-    border: 1px solid black;
+    /* background-color: goldenrod;
+    border: 1px solid black; */
+    /* height: 300px; */
 }
+
+.multi-block img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+.multi-block h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
 
 /* fourth section */
 .aside-col {
