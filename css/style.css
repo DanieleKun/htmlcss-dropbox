@@ -474,6 +474,6 @@ footer {
 }
 
 .footer-down {
-    height: 50px;
     color: gray;
+    margin-top: 100px;
 }
