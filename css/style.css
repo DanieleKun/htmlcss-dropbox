@@ -169,12 +169,12 @@ ul li a{
 /* Column rules */
 .column {
     float: left;
-    width: calc(100% / 3);
+    width: 30%;
 
     /* Debug  */
-    /* background-color: brown; */
-    /* border: 1px solid black; */
-    /* height: 300px; */
+    background-color: brown;
+    border: 1px solid black;
+    height: 300px;
 }
 
 .head-column {
@@ -211,6 +211,8 @@ ul li a{
     list-style: none;
 }
 /* ------- */
+
+
 
 .row-down {
 
@@ -310,9 +312,10 @@ ul li a{
 }
 
 
+/* Carousel rules */
 .aside-col {
     width: 30%;
-    height: 300px;
+    height: 450px;
 
     /* Debug */
     /* background-color: blue; */
@@ -323,7 +326,7 @@ ul li a{
     width: 50%;
     height: 50%;
     float: left;
-    line-height: 150px;
+    line-height: 220px;
     text-align: center;
     /* Debug */
     /* background-color: black; */
@@ -375,7 +378,7 @@ ul li a{
 /* Center carousel */
 .center-col {
     width: 40%;
-    height: 300px;
+    height: 450px;
     background-color: rgb(245, 245, 245);
 
     /* Debug */
@@ -389,7 +392,7 @@ ul li a{
 }
 
 .center-col p{
-    margin: 30px 30px;
+    margin: 60px 30px;
 }
 
 #carousel-down-bg {
