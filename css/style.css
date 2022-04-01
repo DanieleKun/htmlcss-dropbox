@@ -174,7 +174,7 @@ ul li a{
     /* Debug  */
     background-color: brown;
     border: 1px solid black;
-    height: 300px;
+    /* height: 300px; */
 }
 
 .head-column {
