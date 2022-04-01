@@ -327,12 +327,12 @@ ul li a{
     width: 60%;
     background-size: contain;
 
-
-
     /* margin-top: 50px;
     margin-left: 30px; */
 }
 
+
+/* Background partner image */
 .bg-1{
     background-color: rgb(162, 211, 155);
 }
@@ -341,6 +341,29 @@ ul li a{
     background-color: rgb(97, 8, 43);
 }
 
+.bg-3 {
+    background-color: rgb(0, 147, 206);
+}
+
+.bg-4 {
+    background-color: rgb(255, 28, 28);
+}
+
+.bg-5 {
+    background-color: rgb(213, 0, 31);
+}
+
+.bg-6 {
+    background-color: rgb(180, 208, 231);
+}
+
+.bg-7 {
+    background-color: rgb(13, 36, 129);
+}
+
+.bg-8 {
+    background-color: rgb(255, 216, 48);
+}
 
 
 .center-col {
