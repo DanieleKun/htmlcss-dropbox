@@ -78,7 +78,7 @@ span {
     margin: 20px 20px;
 }
 
-.right {
+.right-nav {
     float: right;
 }
 
@@ -323,7 +323,8 @@ ul li a{
     width: 50%;
     height: 50%;
     float: left;
-
+    line-height: 150px;
+    text-align: center;
     /* Debug */
     /* background-color: black; */
 }
@@ -331,6 +332,8 @@ ul li a{
 .bg-logo img{
     width: 60%;
     background-size: contain;
+    vertical-align: middle;
+
 
     /* margin-top: 50px;
     margin-left: 30px; */
