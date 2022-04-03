@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -92,6 +96,10 @@ span {
     float: right;
 }
 
+.right-nav li .button{
+    margin-right: 20px;
+}
+
 ul li a{
     text-decoration: none;
     color: black;
@@ -164,10 +172,14 @@ nav ul li:hover{
     margin: 30px 60px;
 }
 
+.fa-arrow-down {
+    margin-top: 10px;
+    font-size: 30px;
+}
 
 
 /* First section rules */
-.row-up {
+#row-up {
     /* margin: 150px 0; */
     margin-top: 150px;
     margin-bottom: 50px;
@@ -177,7 +189,7 @@ nav ul li:hover{
     height: 100px; */
 }
 
-.row-up h2{
+#row-up h2{
     font-size: 30px;
     margin-bottom: 20px;
 }
