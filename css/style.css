@@ -382,6 +382,10 @@ ul li a{
     /* background-color: black; */
 }
 
+.bg-logo:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
 .bg-logo img{
     width: 60%;
     background-size: contain;
@@ -487,9 +491,17 @@ ul li a{
     border-bottom: 1px solid gray;
 }
 
-.faq-sez p{
+.faq-quest {
     padding: 20px 0;
     border-bottom: 1px solid gray;
+}
+.hover-reply {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-quest:hover .hover-reply{
+    display: block;
 }
 
 .fa-angle-down {
