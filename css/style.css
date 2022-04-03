@@ -65,14 +65,13 @@ span {
 
 /* Header fixed */
 #fixed-nav {
-    height: 80px;
+    /* height: 80px; */
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
     background-color: white;
-
 }
 
 .logo {
@@ -84,7 +83,9 @@ span {
 #fixed-nav ul li {
     display: inline-block;
     float: left;
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .right-nav {
@@ -94,6 +95,11 @@ span {
 ul li a{
     text-decoration: none;
     color: black;
+}
+
+nav ul li:hover{
+    border-bottom: 4px solid black;
+    padding-bottom: 25px;
 }
 
 /* Button rules*/
@@ -126,7 +132,7 @@ ul li a{
     height: 550px;
     width: 100%;
     background-color: rgb(180, 208, 231);
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 #jumbotron h1 {
@@ -448,6 +454,8 @@ ul li a{
 .center-col p{
     margin: 60px 30px;
 }
+
+
 
 #carousel-down-bg {
     width: 100%;
