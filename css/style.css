@@ -396,10 +396,7 @@ nav ul li:hover{
     width: 60%;
     background-size: contain;
     vertical-align: middle;
-
-
-    /* margin-top: 50px;
-    margin-left: 30px; */
+    filter: invert(1);
 }
 
 /* Background partner image */
