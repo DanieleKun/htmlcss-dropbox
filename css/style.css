@@ -162,7 +162,9 @@ ul li a{
 
 /* First section rules */
 .row-up {
-    margin: 150px 0;
+    /* margin: 150px 0; */
+    margin-top: 150px;
+    margin-bottom: 50px;
 
     /* Debug */
     /* background-color: darkblue;
@@ -174,8 +176,11 @@ ul li a{
     margin-bottom: 20px;
 }
 
-/* DA RIFARE!! */
 /* Column rules */
+#tables-container {
+    width: 100%;
+}
+
 .column {
     float: left;
     width: calc(100% / 3 - 50px);
@@ -212,7 +217,7 @@ ul li a{
 }
 
 .body-column .fas{
-    margin: 10px 0;
+    margin: 10px 5px;
 }
 
 .product-description .button{
@@ -226,7 +231,7 @@ ul li a{
 .product-description ul li{
     list-style: none;
 }
-/* ------- */
+
 
 
 
