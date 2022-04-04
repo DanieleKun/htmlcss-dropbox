@@ -20,19 +20,11 @@ span {
 .container {
     width: 80%;
     margin: 0 auto;
-    
-    /* Debug */
-    /* background-color: aqua;
-    height: 300px; */
 }
 
 .alt-container {
     width: 70%;
     margin: 0 auto;
-
-    /* Debug */
-    /* background-color: blueviolet; */
-    /* height: 200px; */
 }
 
 .clearfix::after{
@@ -69,7 +61,6 @@ span {
 #fixed-nav ul li {
     display: inline-block;
     float: left;
-    /* margin: 20px 20px; */
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -161,13 +152,8 @@ nav ul li:hover{
 
 /* First section rules */
 #row-up {
-    /* margin: 150px 0; */
     margin-top: 150px;
     margin-bottom: 50px;
-
-    /* Debug */
-    /* background-color: darkblue;
-    height: 100px; */
 }
 
 #row-up h2{
@@ -183,12 +169,6 @@ nav ul li:hover{
 .column {
     float: left;
     width: calc(100% / 3 - 50px);
-
-
-    /* Debug  */
-    /* background-color: brown;
-    border: 1px solid black; */
-    /* height: 300px; */
 }
 
 .center-column{
@@ -238,9 +218,6 @@ nav ul li:hover{
 .row-down {
     margin-top: 50px;
     margin-bottom: 100px;
-    /* Debug */
-    /* height: 100px;
-    background-color: crimson; */
 }
 
 #down-row-left{
@@ -266,21 +243,11 @@ nav ul li:hover{
     margin: 20px 0;
 }
 
-
-
-
-
-
-
 /* Second section */
 .col-img {
     float: left;
     width: 50%;
     height: auto;
-
-    /* Debug */
-    /* background-color: darkslategrey; */
-
 }
 
 .col-img img{
@@ -294,9 +261,6 @@ nav ul li:hover{
     height: auto;
     margin: 30px 0;
     padding-left: 20px;
-
-    /* debug */
-    /* background-color: green; */
 }
 
 .col-text h3 {
@@ -316,11 +280,6 @@ nav ul li:hover{
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
-
-    /* debug */
-    /* background-color: black; */
-    /* height: 100px;
-    width: 100%; */
 }
 
 .multi-block {
@@ -328,11 +287,6 @@ nav ul li:hover{
     width: calc(100% / 3 - 20px);
     margin-right: 20px;
     margin-bottom: 40px;
-
-    /* debug */
-    /* background-color: goldenrod;
-    border: 1px solid black; */
-    /* height: 300px; */
 }
 
 .multi-block img{
@@ -366,9 +320,6 @@ nav ul li:hover{
 .aside-col {
     width: 30%;
     height: 450px;
-
-    /* Debug */
-    /* background-color: blue; */
 }
 
 /* Rules image */
@@ -378,8 +329,6 @@ nav ul li:hover{
     float: left;
     line-height: 220px;
     text-align: center;
-    /* Debug */
-    /* background-color: black; */
 }
 
 .bg-logo:hover{
@@ -431,9 +380,6 @@ nav ul li:hover{
     width: 40%;
     height: 450px;
     background-color: rgb(245, 245, 245);
-
-    /* Debug */
-    /* background-color: deeppink; */
 }
 
 .center-carousel-logo img{
@@ -451,9 +397,6 @@ nav ul li:hover{
 #carousel-down-bg {
     width: 100%;
     background-color: rgb(180, 208, 231);
-
-    /* Debug */
-    /* height: 300px; */
 }
 
 .left-carousel {
@@ -478,10 +421,6 @@ nav ul li:hover{
 
 .faq-sez {
     margin-bottom: 100px;
-
-    /* Debug */
-    /* background-color: dodgerblue; */
-    /* height: 300px; */
 }
 
 .faq-sez h2{
@@ -511,8 +450,6 @@ nav ul li:hover{
 footer {
     background-color: black;
     color: white;
-
-    /* debug */
     height: 400px;
 }
 
@@ -521,10 +458,6 @@ footer {
     width: calc(100% / 5);
     padding-top: 40px;
     margin-bottom: 50px;
-
-    /* debug */
-    /* background-color: crimson;
-    height: 300px; */
 }
 
 .foot-col h3{
